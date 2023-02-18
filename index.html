@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.divya_kale/tech.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1dcbb38105.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!---------------Home--------------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="LOGO.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1> Hi, I'm <span> Divya Kale </span></h1>
+                <br>
+                <p>Student at GCE, Karad.</p>
+            </div>
+        </div>
+    </div>
+    <!----------About----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <br> <br> <br> <br>
+                    <img src="image.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1> <br> <br>
+                    <p>To make a sound position in the corporate world and work enthusiastically in a team to achieve
+                        goals in the organization with devotion and hard work </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('Roles and Responsibilities')">Roles and Responsibilities
+                        </p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>Government College of Engineering,Karad </span><br>Course : Electronics and
+                                Telcommunications Engineering <br>SGPA : 7.86 <br>12/2021 - 06/2025</li>
+                            <br>
+                            <li><span>Yashwantrao Chavan College of Science, Karad</span> <br> HSC(Maharashtra Board)
+                                <br>
+                                Persentage : 97.17% <br> 06/2020 - 08/2021
+                            </li>
+                            <br>
+                            <li><span>S.R.K. Lahoti Kanya Prashala, Karad </span><br> SSC(Maharashtra Board)
+                                <br>Percentage :
+                                90.60% <br>06/2018 - 03/2019
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Skills">
+                        <ul>
+                            <li><span>C++</span></li> <br>
+                            <li><span>OOPS</span></li> <br>
+                            <li><span>HTML</span></i></li> <br>
+                            <li><span>CSS</span></i></li> <br>
+                            <li><span>Javascript</span></li> <br>
+                            <li><span>Leadership</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Achievements">
+                        <ul>
+                            <li><span>GCEK 2022 Toycathon Winner </span> <br>Secured first prize in GCEK Toycathon 2022
+                                organized at our college. <br> It is competition being undertaken by ministry of Housing
+                                and
+                                Urban Affairs under under Swachh Bharat Mission - Urban(SBM- u2.0) with aim of
+                                rethinking Indian Toy Industry.</li> <br>
+                            <li><span>Prime Minister's Scholarship Scheme (PMSS) </span><br>It facilitates access
+                                to quality education for students so as to equip them with knowledge, skills,
+                                experience, and training for higher academic levels</li> <br>
+                            <li><span>Vishesh Gungaurav Puraskar </span><br>Received award from Satara Soldier
+                                Board for securing First Rank in 12th Board (97.17%) among wards of Army Personnel of
+                                Satara District.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Roles and Responsibilities">
+                        <ul>
+                            <li><span>Alphageeks (GCEK Coding Club )</span> <br>Position - Public Relation</li>
+                            <br>
+                            <li><span>NSS (GCEK NSS Club)</span> <br> Position - Co-Ordinator</li>
+                            <br>
+                            <li><span>Swarajya Team (Toycathon)</span> <br>Position - Team Lead</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------Projects------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="subtitle">Projects</h1> <br> <br>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-brands fa-spotify"></i>
+                    <h2>My Spotify Clone</h2>
+                    <p>Designed 'My Spotify' Clone by using HTML, CSS and JavaScript. The goal of this project is to
+                        build a website that mimic the appearances and also some of the basic functionalities of a
+                        popular music-streaming platform - Spotify.</p>
+                    <br> <br>
+                    <a href="https://divyak98.github.io/Spotify-Clone.github.io/">Project Link</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-puzzle-piece"></i>
+                    <h2>Swarajya</h2>
+                    <p>Created a toy 'Swarajya' in GCEK Toycathon 2022. Basically it is a monopoly of Chatrapati Shivaji
+                        Maharaj life history. <br> It is competition being undertaken by ministry of Housing and Urban
+                        Affairs under under Swachh Bharat Mission - Urban(SBM- u2.0) with aim of rehhthinking Indian Toy
+                        Industry.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>Cost Estimation Calculator </h2>
+                    <p>Cost estimation predictor for Installation of Electric vehicle charging station at home by solar
+                        energy. <br> This work can compute an efficient requirement data for installing rooftop solar PV
+                        system at home, which will predict cost estimation for installing solar PV system at home for
+                        charging an electric vehicle.</p>
+                </div>
+            </div>
+            <br> <br> <br> <br> <br> <br> <br>
+            <!----------------Contact---------------->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="subtitle">Contact Me</h1> <br>
+                            <p><i class="fa-solid fa-envelope"></i>kaledivya982003@gmail.com</p>
+                            <p><i class="fa-solid fa-square-phone"></i>7709029351</p> <br>
+                            <div class="social-icons">
+                                <a href="https://linkedin.com/in/divya-kale"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/divyak98"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://instagram.com/_.divyakale._?igshid=YzgyMTM2MGM="><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100074104623667&mibextid=ZbWKwL"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                            </div>
+                            <br> <br>
+                            <a href="CV.pdf" download class="btn btn2">Download Resume</a>
+                            <br> <br>
+                        </div>
+
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="index.js"></script>
+
+</body>
+<footer>
+    <div class="copyright">
+        <p><i class="fa-regular fa-copyright"></i> 2023 made by Divya Kale.</p>
+             </div>   
+</footer>
+</html>
